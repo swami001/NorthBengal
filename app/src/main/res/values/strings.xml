@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name"> North Bengal News App</string>
+    <string name="app_name"> North Bengal News</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="img_no">No Favorite Found</string>
@@ -19,9 +19,13 @@
     <string name="menu_search">Search</string>
     
     <!-- About Content -->
-    <string name="app_email">example@mail.com</string>
-    <string name="app_website">http://dimasword.com</string>
-    <string name="app_description">Your App Description Here. \nLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </string>
+    <string name="app_email">nikk3008@oxiloindia.com</string>
+    <string name="app_website">http://www.oxiloindia.com</string>
+    <string name="app_description">Oxilo is a leading independent Indian mobile application, website design &amp;
+    development, e-strategy and online marketing company
+    We are an known to be enthusiastic and passionate team that has gained the
+    customer trust and love over the years with best web and mobile solutions ,
+    the way client wanted.</string>
 
     <!-- Change AdMob Banner and Interstitial ID -->
     <string name="admob_publisher_id">ca-app-pub-2275082029538522/9859232298</string>

@@ -11,15 +11,15 @@
         android:title="@string/menu_favorite"
         app:showAsAction="never"/>
 
-    <!-- Rate App -->
-    <item android:id="@+id/menu_rateapp"
-        android:title="@string/menu_rateapp"
-        app:showAsAction="never"/>
+    <!--&lt;!&ndash; Rate App &ndash;&gt;-->
+    <!--<item android:id="@+id/menu_rateapp"-->
+        <!--android:title="@string/menu_rateapp"-->
+        <!--app:showAsAction="never"/>-->
 
-    <!-- More App -->
-    <item android:id="@+id/menu_moreapp"
-        android:title="@string/menu_moreapp"
-        app:showAsAction="never"/>
+    <!--&lt;!&ndash; More App &ndash;&gt;-->
+    <!--<item android:id="@+id/menu_moreapp"-->
+        <!--android:title="@string/menu_moreapp"-->
+        <!--app:showAsAction="never"/>-->
 
     <!-- About -->
     <item android:id="@+id/menu_about"

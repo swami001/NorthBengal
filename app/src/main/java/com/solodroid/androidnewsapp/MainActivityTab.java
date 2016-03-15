@@ -135,23 +135,23 @@ public class MainActivityTab extends ActionBarActivity {
                 return true;
 
 
-            case R.id.menu_moreapp:
-                startActivity(new Intent(Intent.ACTION_VIEW,
-                        Uri.parse(getString(R.string.play_more_apps))));
-                return true;
+//            case R.id.menu_moreapp:
+//                startActivity(new Intent(Intent.ACTION_VIEW,
+//                        Uri.parse(getString(R.string.play_more_apps))));
+//                return true;
 
-            case R.id.menu_rateapp:
-                final String appName = getApplicationContext().getPackageName();
-                try {
-                    startActivity(new Intent(Intent.ACTION_VIEW,
-                            Uri.parse("market://details?id=" + appName)));
-                } catch (android.content.ActivityNotFoundException anfe) {
-                    startActivity(new Intent(
-                            Intent.ACTION_VIEW,
-                            Uri.parse("http://play.google.com/store/apps/details?id="
-                                    + appName)));
-                }
-                return true;
+//            case R.id.menu_rateapp:
+//                final String appName = getApplicationContext().getPackageName();
+//                try {
+//                    startActivity(new Intent(Intent.ACTION_VIEW,
+//                            Uri.parse("market://details?id=" + appName)));
+//                } catch (android.content.ActivityNotFoundException anfe) {
+//                    startActivity(new Intent(
+//                            Intent.ACTION_VIEW,
+//                            Uri.parse("http://play.google.com/store/apps/details?id="
+//                                    + appName)));
+//                }
+//                return true;
 
             default:
                 return super.onOptionsItemSelected(menuItem);
